@@ -5,6 +5,8 @@ It serves as a showcase of my skills in **Python programming**, **basic GUI deve
 
 The tool allows users to load CSV datasets and instantly generate plots and summary information—without writing a single line of code.
 
+<img width="902" height="632" alt="EDA_scatterplot" src="https://github.com/user-attachments/assets/e2c5de00-9652-4dc6-9c4e-1e1a178195ed" />
+
 ---
 
 ## **Features**
@@ -122,5 +124,7 @@ python EDA.py
 
 ## **Screenshots**
 
+<img width="902" height="632" alt="EDA_histplot" src="https://github.com/user-attachments/assets/44e91258-7950-4b14-8e9d-98e401b202e0" />
+<img width="902" height="632" alt="EDA_heatmap" src="https://github.com/user-attachments/assets/fd71d0cc-5d17-443d-b13d-2c0566dded3b" />
 
 ---
