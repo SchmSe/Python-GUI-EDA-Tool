@@ -38,11 +38,11 @@ Based on the number and type of variables entered, the tool automatically choose
 
 ### **1. Load a Dataset**
 In the upper-left area of the GUI:
-1. Type the dataset name (e.g., `iris`)
-2. Click **"LLaden"**
+1. Type the dataset name (e.g., `Iris`)
+2. Click **"Laden"**
 
 The tool will:
-- Read `iris.csv`
+- Read `Iris.csv`
 - Display structural information via `df.info()`
 - Confirm successful loading
 
@@ -89,10 +89,11 @@ The interface consists of four main sections:
 ## **Project Structure**
 
 ```
-EDA_tool/
+Python-GUI-EDA-Tool/
 │
-├── main.py           # The Tkinter GUI + plotting logic
-├── dataset.csv       # (Example datasets placed here)
+├── EDA.py
+├── Iris.csv
+├── student_exam_scores.csv
 ├── README.md
 ```
 
@@ -102,7 +103,7 @@ EDA_tool/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/SchmSe/Python-GUI-EDA-Tool.git
 ```
 
 2. Install dependencies:
@@ -112,23 +113,14 @@ pip install pandas matplotlib seaborn
 
 3. Run the application:
 ```bash
-python main.py
+python EDA.py
 ```
 
-4. Make sure your CSV files are located in the same directory as `main.py`.
-
----
-
-## **Planned Improvements**
-- Modularization into separate functions/classes  
-- Optional file picker instead of text input  
-- Better handling of large datasets  
-- Additional plot types (boxplots, pairplots, KDE, etc.)  
-- Responsive/adaptive UI layout  
+4. Make sure your CSV files are located in the same directory as `EDA.py`.
 
 ---
 
 ## **Screenshots**
-*(Optional — Add screenshots of your GUI here)*
+
 
 ---
